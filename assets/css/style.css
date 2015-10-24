@@ -980,7 +980,7 @@ figure.effect-bubba:hover p {
 }
 
 .cbp-qtrotator blockquote footer:before {
-    content: '― ';
+    content: 'â€• ';
 }
 
 .cbp-qtrotator .cbp-qtcontent img {
@@ -988,7 +988,6 @@ figure.effect-bubba:hover p {
     margin-left: 3em;
 }
 
-/* Example for media query */
 @media screen and (max-width: 30.6em) {
 
     .cbp-qtrotator {
@@ -1005,7 +1004,8 @@ figure.effect-bubba:hover p {
     opacity: 1;
     margin: auto;
     width: 40%;
-    margin-top: -20px;
+    left: 30%;
+    position: absolute;
 }
 
 figure.effect-bubba:hover img.logo {
